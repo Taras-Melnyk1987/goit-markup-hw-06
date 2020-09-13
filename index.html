@@ -271,7 +271,7 @@
                         </a>
                     </li>
                     <li class="clients-margin">
-                        <a href="" class="clients-link" class="client-hover" target="_blank">
+                        <a href="" class="clients-link" target="_blank">
                             <svg class="clients-icon" width="59" height="47">
                                 <use href="./images/symbol-defs.svg#icon-logo-5"></use>
                             </svg>
@@ -334,12 +334,29 @@
                     </ul>
                 </div>
             </section>
-            <section>
+            <!--<section>
                 <div class="footer-button">
                     <h2>Подпишитесь на рассылку</h2>
                     <button class="button">Подписаться</button>
                 </div>
-            </section>
+            </section>-->
+
+            <div class="footer-form">
+                <form autocomplete="off">
+                  <label for="call-to-activity" class="email-form">
+                    <b class="call-to-activity">Подпишитесь на рассылку</b>
+                  </label>
+                  <div class="input-form">
+                    <input id="call-to-activity" type="email" name="email" placeholder="E-mail" />
+                    <button type="submit" class="btn-footer">
+                      Подписаться
+                      <svg class="icon-send">
+                        <use href="./images/sprite.svg#icon-icon-send-1"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
         </div>
     </footer>
 
@@ -353,7 +370,7 @@
                   <div class="form-field">
                     <input type="text" name="name" id="user-name" class="form-input" />
                     <svg class="icon-form">
-                      <use href="./images/symbol-defs.svg#person-black-18dp"></use>
+                        <use href="./images/symbol-defs.svg#person-black-18dp"></use>
                     </svg>
                   </div>
                   <label for="user-tel" class="modal-label">Телефон</label>
@@ -387,7 +404,7 @@
       
               <button type="button" class="btn-modal" data-modal-close>
                 <svg class="modal-icon">
-                  <use href="./images/symbol-defs.svg#close-back-18dp"></use>
+                  <use href="./images/symbol-defs.svg#close-black-18dp"></use>
                 </svg>
               </button>
             </div>
